@@ -2,7 +2,7 @@
 #### {Khadija Hassan}, {2020}
 #### By **{khadija hassan}**
 ## Description
-{.Akan names are derived from Ghanian culture in Ghana children are given their first name as day name which are the day in the week they were born. }
+{.Akan names are derived from Ghanian culture. In Ghana children are given their first name as day name which are the day in the week they were born. }
 ## Setup/Installation Requirements
 * html
 * visual studio code
