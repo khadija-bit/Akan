@@ -3,27 +3,31 @@ var maleNames=[
 var femaleNames=[
     "akosua", "adwoa", "abenaa", "akua", "yaa", "afua", "ama"]
    function result{
-var century=pereseInt(document.getElementById("century").value);
-var year=pereseInt(document.getElementById("year").value);
-var month=pereseInt(document.getElementById("month").value);
-var day=pereseInt(document.getElementById("day").value);
-ifcentury(century<=18||century21> ) {
+var century=parseInt(document.getElementById("century").value);
+var year=parseInt(document.getElementById("year").value);
+var month=parseInt(document.getElementById("month").value);
+var day=parseInt(document.getElementById("day").value);
+return [century, year, month, day];
+   }
+
+if (century<=18||century>=21>{
     alert("Right input")
-    return "false"
+    return "false";
+} else if(year<=1800||year>=2100>{
+  alert("Right input");
+}   
+return false;
+} else if (month<=0||month>=12>{
+  alert("Right input")
+}   
+return false;
+} else if (day<=0||day>=30>{ 
+  alert("Right input")
 }
- else if(year<=1800||year2100>)
- {
-    alert("Right input")
-    return "false"
+return false;
 }
-else if(month<=0||month12>)
-{
-    alert("Right input")
-    return "false"
+if (maleNames.checked==true){
+  alert("the maleNames+theday of year[birthday]+dayofcentury")
+} else if (femaleNames.checked==true){
+  alert("the femaleNames+theday of year[birthday]+dayofcentury")
 }
-else if(day<=0||day30>) 
-{
-    alert("Right input")
-    return "false"
-}
-if the maleNames.checked

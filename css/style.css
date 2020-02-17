@@ -1,15 +1,19 @@
-h1 {
-  color: red;
-  font-style: italic;
+
+.container {
+  background-color:burlywood
+
 }
-h2 {
-  font-style: italic;
+h3{
   text-align: center;
-  color: teal;
+  background-color: lightcyan
 }
-p {
-  color: gray;
+.output{
+  border: solid 2px black;
+  height: 50%;
+  width:95%;
+  border-radius: 4px;
 }
-body {
-  background-color: skyblue;
-}
+@media screen and (min-width: 600px) {
+  .column{width:450px; float: padding: 10px;}
+  .image{width: 500px; height: 400px;{
+  }
