@@ -8,8 +8,8 @@
 * visual studio code
 * javascript
 * bootstrap
-* 
-
+### link
+https://khadija-bit.github.io/Akan/
 ## Known Bugs
 {no bugs }
 ## Technologies Used
