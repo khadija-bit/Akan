@@ -13,7 +13,7 @@
 ## Known Bugs
 {no bugs }
 ## Technologies Used
-{css,javascript,html.}
+{css,javascript,html,visual code.}
 ## Support and contact details
 {if any feedback contact  my email sumeyahassan34@gmail.com.}
 ### License

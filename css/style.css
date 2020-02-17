@@ -1,14 +1,14 @@
 
 .container {
-  background-color:burlywood
+  background-color:burlywood;
 
 }
 h3{
   text-align: center;
-  background-color: lightcyan
+  background-color: lightcyan;
 }
 .output{
-  border: solid 2px black;
+  border: solid 2px blue;
   height: 50%;
   width:95%;
   border-radius: 4px;
