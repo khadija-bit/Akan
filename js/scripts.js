@@ -32,7 +32,7 @@ var weekday = function () {
     }
     if (century <= 18 || century >= 2) {
         alert("wrong input");
-        return "false";
+        return false;
     } else if (year <= 1800 || year >= 2100) {
         alert("wrong input");
         return false;
@@ -43,15 +43,15 @@ var weekday = function () {
         alert("wrong input")
         return false;
     }
-    var akan = function () {
-        var male = document.getElementById("male");
-        var female = document.getElementById("female");
-        var maleNames = ["Kwasi", "Kwadwo", "Kwabena", "Kwaku", "Yaw", "Kofi", "Kwame"];
-        var femaleNames = ["Akosua", "Adwoa", "Abenaa", "Akua", "Yaa", "Afua", "Ama"];
-        if (maleNames.checked == true) {
-            alert("the maleNames+theday of year[akan()]+dayofcentury");
-        } else if (femaleNames.checked == true) {
-            alert("the femaleNames+theday of year[akan()]+dayofcentury");
-        }
+}
+var akan = function () {
+    var male = document.getElementById("male");
+    var female = document.getElementById("female");
+    var maleNames = ["Kwasi", "Kwadwo", "Kwabena", "Kwaku", "Yaw", "Kofi", "Kwame"];
+    var femaleNames = ["Akosua", "Adwoa", "Abenaa", "Akua", "Yaa", "Afua", "Ama"];
+    if (male.checked == true) {
+        alert(maleNames[result()]);
+    } else if (female.checked == true) {
+        alert(femaleNames[result()]);
     }
 }
