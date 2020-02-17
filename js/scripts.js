@@ -1,3 +1,22 @@
+
+function weekday() {
+    if (day() === 0) {
+        return "monday" ;  
+    } else if (day() === 1) {
+        return "tuesday" ;
+    } else if (day()=== 2) {
+        return "wednesday"
+    } else if (day()=== 3) {
+        return "thursday"
+    } else if (day()=== 4) {
+        return "friday"
+    } else if (day()=== 5) {
+        return "saturday"
+    } else if (day()=== 6) {
+        return "sunday"
+    }
+
+
 var maleNames=[
    "kwasi", "kwadwo", "kwabena", "kwaku", "yaw", "kofi", "kwame",]
 var femaleNames=[
@@ -7,27 +26,25 @@ var century=parseInt(document.getElementById("century").value);
 var year=parseInt(document.getElementById("year").value);
 var month=parseInt(document.getElementById("month").value);
 var day=parseInt(document.getElementById("day").value);
-return [century, year, month, day];
-   }
+return result
+ }
 
-if (century<=18||century>=21>{
-    alert("Right input")
+if (century<=18||century>=2){
+    alert("wrong input");
     return "false";
-} else if(year<=1800||year>=2100>{
-  alert("Right input");
-}   
-return false;
-} else if (month<=0||month>=12>{
-  alert("Right input")
-}   
-return false;
-} else if (day<=0||day>=30>{ 
-  alert("Right input")
+} else if (year<=1800||year>=2100){
+    alert("wrong input");   
+    return false;
+} else if (month<=0||month>=12){
+    alert("wrong input")
+    return false;
+} else if(day<=0||day>=30){ 
+    alert("wrong input")
+    return false;
 }
-return false;
-}
-if (maleNames.checked==true){
-  alert("the maleNames+theday of year[birthday]+dayofcentury")
+function akan() {
+if(maleNames.checked==true){
+    alert("the maleNames+theday of year[akan()]+dayofcentury")
 } else if (femaleNames.checked==true){
-  alert("the femaleNames+theday of year[birthday]+dayofcentury")
+  alert("the femaleNames+theday of year[akan()]+dayofcentury")
 }
