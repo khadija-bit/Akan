@@ -18,9 +18,9 @@ function weekday() {
 
 
 var maleNames=[
-   "kwasi", "kwadwo", "kwabena", "kwaku", "yaw", "kofi", "kwame",]
+   "Kwasi", "Kwadwo", "Kwabena", "Kwaku", "Yaw", "Kofi", "Kwame",];
 var femaleNames=[
-    "akosua", "adwoa", "abenaa", "akua", "yaa", "afua", "ama"]
+    "Akosua", "Adwoa", "Abenaa", "Akua", "Yaa", "Afua", "Ama"];
    function result{
 var century=parseInt(document.getElementById("century").value);
 var year=parseInt(document.getElementById("year").value);
@@ -43,8 +43,12 @@ if (century<=18||century>=2){
     return false;
 }
 function akan() {
+    var male = document.getElementById("male");
+    var female = document.getElementById("female");
+    var maleNames = ["Kwasi", "Kwadwo", "Kwabena", "Kwaku", "Yaw", "Kofi", "Kwame".];
+    var femaleNames = ["Akosua", "Adwoa", "Abenaa","Akua", "Yaa", "Afua", "Ama"];
 if(maleNames.checked==true){
-    alert("the maleNames+theday of year[akan()]+dayofcentury")
+    alert("the maleNames+theday of year[akan()]+dayofcentury");
 } else if (femaleNames.checked==true){
-  alert("the femaleNames+theday of year[akan()]+dayofcentury")
+  alert("the femaleNames+theday of year[akan()]+dayofcentury");
 }
